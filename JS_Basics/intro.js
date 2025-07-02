@@ -10,8 +10,8 @@ let accountProvince;
 
 //console.log(typeof(accountEmail))
 
-//console.log("User account IS is: "+accountID+ "and account Email is: "+accountEmail);
-//console.log('User account ID is ${accountID} and account Email is ${accountEmail}')
+//console.log("User account IS is: "+accountID+ "and account Email is: "+accountEmail");
+//console.log(`User account ID is ${accountID} and account Email is ${accountEmail}`)
 
 console.log(3
     +
