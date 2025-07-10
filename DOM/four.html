@@ -2,8 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Edit DOM</title>
+    <title>EDIT DOM</title>
 </head>
 <body style="background-color: black; color: white;">
     <ul class="language">
@@ -13,21 +12,24 @@
 <script>
     function addLanguage(lang){
         const li = document.createElement('li')
-        li.innerHTML = '${lang}'
-        document.querySelector('.language').appendChildern(li)
+        li.innerHTML = `${lang}`
+        document.querySelector('.language').appendChild(li)
     }
 
     addLanguage('C#')
-    addLanguage('Python')
+    addLanguage('python')
 
     const secondLang = document.querySelector('li:nth-child(3)')
     console.log(secondLang);
     secondLang.innerHTML = 'C++'
+    
 
     //secondLang.replaceWith()
 
     const delElement = document.querySelector('li:nth-child(1)')
     delElement.remove()
+
+    
 
 </script>
 </html>
